@@ -31,28 +31,31 @@ A role-based task management application built with React, Vite, and localStorag
 
 1. Clone or download the project
 2. Navigate to the project directory:
-   ```bash
-   cd sky-task-management 
+
+```bash
+cd sky-task-management
 
 
 
+```
 
-Install dependencies:
+3. Install dependencies:
+```bash
+npm install
 
-   ```bash
-   npm install
 
+``` 
+4. Start the development server:
 
-#Start the development server:
-
-   ```bash
+```bash 
 npm run dev
 
 
+```
+# Login Credentials
 
-### Login  credentials
+## Admin
 
-Admin
 
 Username: admin
 
@@ -61,61 +64,64 @@ Password: admin123
 Permissions: Create tasks, reassign tasks, view all tasks
 
 
+# Users
 
-Users
+## User 1
 
-User 1:
 
-Username: user1            Password: user123
+Username: venky
+
+Password: venky123
 
 Name: venky
 
 
+# Users
 
-User 2:
+## User 2
 
-Username: user2            Password: user123
+Username: sky
 
-Name: sky
+Password: sky123
 
-
-
-
-### How to use
-
-
-For Admin:
-
-Login with admin credentials
-
-Create new tasks using the form on the left
-
-To reassign tasks:
-
-Drag a task from the task list
-
-Drop it on a user card
-
-The task will be automatically reassigned
-
-For Users:
-Login with user credentials
-
-View your assigned tasks
-
-Click "Mark Complete" to update task status
-
-Completed tasks will be highlighted in green
+Name: sumitra 
 
 
 
 
+# How to Use
+
+## For Admin
+
+1. Login with admin credentials
+
+2. Create new tasks using the form on the left
+
+3. To reassign tasks:
+
+      Drag a task from the task list
+
+      Drop it on a user card
+
+      The task will be automatically reassigned
 
 
-### Project Structure
+## For Users
+
+      Login with user credentials
+
+      View your assigned tasks
+
+      Click "Mark Complete" to update task status
+
+      Completed tasks will be highlighted in green
 
 
-src/
+   #  Project Structure
+
+   ```
+
+   src/
 ├── components/
 │   ├── LoginForm.jsx      # Login component
 │   ├── Header.jsx         # Navigation header
@@ -132,47 +138,44 @@ src/
 
 
 
+```
 
+# Persistence
 
-### Persistence  
 
 All data (tasks, users, current session) is stored in the browser's localStorage. This means:
 
-Data persists across page refreshes
 
-Data is specific to each browser
+   Data persists across page refreshes
 
-Clearing browser data will reset the application
+   Data is specific to each browser
 
-
-
-### Technologies Used
-
-React 18
-
-Vite (Build tool)
-
-React DnD (Drag and Drop)
-
-localStorage (Data persistence)
+   Clearing browser data will reset the application
 
 
+# Technologies Used 
+
+   React 18
+
+   Vite
+
+   React DnD
+
+   localStorage
 
 
-Available Scripts
-
-npm run dev - Start development server
-
-npm run build - Build for production
-
-npm run preview - Preview production build
-
-npm run lint - Run ESLint
+##  Available Scripts
 
 
+```
+npm run dev      # Start development server
+npm run build    # Build for production
+npm run preview  # Preview production build
+npm run lint     # Run ESLint
 
-Browser Support
+```
 
+## Browser Support
 
 The application works on all modern browsers that support:
 
@@ -181,6 +184,3 @@ ES6+ JavaScript
 localStorage API
 
 CSS Grid and Flexbox
-
-
-
