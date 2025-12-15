@@ -35,13 +35,15 @@ A role-based task management application built with React, Vite, and localStorag
    cd sky-task-management 
 
 
+
+
 Install dependencies:
 
    ```bash
    npm install
 
 
-Start the development server:
+#Start the development server:
 
    ```bash
 npm run dev
@@ -109,9 +111,8 @@ Completed tasks will be highlighted in green
 
 
 
-Project Structure
 
-
+### Project Structure
 
 
 src/
@@ -180,7 +181,6 @@ ES6+ JavaScript
 localStorage API
 
 CSS Grid and Flexbox
-
 
 
 
