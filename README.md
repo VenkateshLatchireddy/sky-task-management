@@ -37,19 +37,21 @@ A role-based task management application built with React, Vite, and localStorag
 
 Install dependencies:
 
-npm install
+   ```bash
+   npm install
 
 
 Start the development server:
 
-bash
+   ```bash
 npm run dev
 
 
 
+### Login  credentials
 
-Login Credentials
 Admin
+
 Username: admin
 
 Password: admin123
@@ -59,27 +61,29 @@ Permissions: Create tasks, reassign tasks, view all tasks
 
 
 Users
+
 User 1:
 
-Username: user1
-
-Password: user123
+Username: user1            Password: user123
 
 Name: venky
 
+
+
 User 2:
 
-Username: user2
-
-Password: user123
+Username: user2            Password: user123
 
 Name: sky
 
 
 
 
-How to Use
+### How to use
+
+
 For Admin:
+
 Login with admin credentials
 
 Create new tasks using the form on the left
@@ -129,7 +133,8 @@ src/
 
 
 
-Data Persistence
+### Persistence  
+
 All data (tasks, users, current session) is stored in the browser's localStorage. This means:
 
 Data persists across page refreshes
@@ -140,9 +145,8 @@ Clearing browser data will reset the application
 
 
 
+### Technologies Used
 
-
-Technologies Used
 React 18
 
 Vite (Build tool)
@@ -155,6 +159,7 @@ localStorage (Data persistence)
 
 
 Available Scripts
+
 npm run dev - Start development server
 
 npm run build - Build for production
@@ -166,6 +171,8 @@ npm run lint - Run ESLint
 
 
 Browser Support
+
+
 The application works on all modern browsers that support:
 
 ES6+ JavaScript
